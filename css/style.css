@@ -1,14 +1,6 @@
-*{
+* {
     padding: 0;
     margin: 0;
-}
-
-html{
-    direction: rtl;
-}
-
-body{
-    font-family: vazir;
 }
 
 @font-face {
@@ -16,34 +8,151 @@ body{
     src: url("../fonts/vazir/vazir-fd.woff2"), url('../fonts/vazir/vazir.woff2');
 }
 
-a{
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: vazir !important;
+}
+
+
+a {
     text-decoration: none;
     color: black;
 }
 
 
-
-.header-img{
+.header-img {
     height: 60px;
 }
 
-.m-icon{
+.m-icon {
     vertical-align: bottom;
 }
 
-.header-icon{
+.header-icon {
     font-size: 50px;
     color: #3498db;
 }
 
-.header-icon-text{
+.header-icon-text {
     font-size: 16px;
 }
 
-.navbar-toggler{
+/*nav.navbar{*/
+/*    border-bottom: solid 1px black;*/
+/*}*/
+
+.navbar-toggler {
     border: 0;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     box-shadow: 0 0;
+}
+
+.language, .login {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #3498db !important;
+}
+
+.navbar .has-mega-menu {
+    position: static !important;
+}
+
+.mega-menu{
+    background-color: #f3f3f3;
+    padding: 20px;
+    min-width: 100%;
+    border: 0;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+}
+
+.mega-menu .col{
+    margin-right: 30px;
+}
+
+.dropdown-menu-header {
+    border-bottom: solid 2px black;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.navbar .dropdown-item:hover{
+    background-color: unset;
+    color: #3498db;
+}
+
+/*.navbar .dropdown:hover .dropdown-menu{*/
+/*    display: block;*/
+/*}*/
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.advanced-search{
+    border-bottom: solid 3px  #1e3799;
+}
+
+.advanced-search input:focus{
+    box-shadow: 0 0;
+}
+
+.advanced-search span{
+    color: #0c2461;
+}
+
+.advanced-search input::placeholder, .advanced-search input{
+    color: #4a69bd !important;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        border-bottom: solid 1px black;
+        padding: 0;
+    }
+
+    .nav-item {
+        color: #666;
+        display: inline-block;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .nav-item:after {
+        display: block;
+        content: '';
+        border-bottom: solid 2px black;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+
+    .nav-item:hover:after {
+        transform: scaleX(1);
+    }
+
+    .nav-item.fromRight:after {
+        transform-origin: 100% 50%;
+    }
+
+    .nav-item.fromLeft:after {
+        transform-origin: 0% 50%;
+    }
+
 }
