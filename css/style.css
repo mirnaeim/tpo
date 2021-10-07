@@ -6,3 +6,44 @@
 html{
     direction: rtl;
 }
+
+body{
+    font-family: vazir;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/vazir/vazir-fd.woff2"), url('../fonts/vazir/vazir.woff2');
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.header-img{
+    height: 60px;
+}
+
+.m-icon{
+    vertical-align: bottom;
+}
+
+.header-icon{
+    font-size: 50px;
+    color: #3498db;
+}
+
+.header-icon-text{
+    font-size: 16px;
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0;
+}
