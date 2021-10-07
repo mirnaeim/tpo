@@ -8,9 +8,6 @@
     src: url("../fonts/vazir/vazir-fd.woff2"), url('../fonts/vazir/vazir.woff2');
 }
 
-html {
-    direction: rtl;
-}
 
 body {
     font-family: vazir !important;
@@ -18,8 +15,11 @@ body {
 
 
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
+}
+a:hover{
+    color: #3498db !important;
 }
 
 
@@ -120,7 +120,31 @@ a {
     color: #4a69bd !important;
 }
 
+.uk-slideshow-items{
+    height: 70vh !important;
+}
+.announcement-header{
+    margin: 15px 0;
+}
+.announcements{
+    list-style-type: none;
+    overflow-y: auto;
+    max-height: 400px;
+}
 
+.announcements li{
+    border-bottom: solid 1px silver;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.announcement-date{
+    margin: 10px 0;
+}
+.announcement-date .material-icons{
+    color:  #3498db;
+}
 
 @media screen and (min-width: 992px) {
     .navbar {

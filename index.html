@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/uikit-rtl.css">
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 <body>
 <div class="container d-flex flex-column">
@@ -34,7 +37,7 @@
                         </a>
                         <div class="dropdown-menu row mega-menu" aria-labelledby="navbarDropdownMenuLink">
                             <div class="col">
-                                <div class="dropdown-menu-header"> درباره سازمان </div>
+                                <div class="dropdown-menu-header"> درباره سازمان</div>
                                 <ul>
                                     <li><a class="dropdown-item" href="#">معرفی سازمان</a></li>
                                     <li><a class="dropdown-item" href="#">ریاست سازمان</a></li>
@@ -50,7 +53,7 @@
                         <div class="dropdown-menu row mega-menu" aria-labelledby="navbarDropdownMenuLink">
                             <div class="row">
                                 <div class="col">
-                                    <div class="dropdown-menu-header"> درباره سازمان </div>
+                                    <div class="dropdown-menu-header"> درباره سازمان</div>
                                     <ul>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
@@ -59,7 +62,7 @@
                                     </ul>
                                 </div>
                                 <div class="col">
-                                    <div class="dropdown-menu-header"> درباره سازمان </div>
+                                    <div class="dropdown-menu-header"> درباره سازمان</div>
                                     <ul>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
@@ -68,7 +71,7 @@
                                     </ul>
                                 </div>
                                 <div class="col">
-                                    <div class="dropdown-menu-header"> درباره سازمان </div>
+                                    <div class="dropdown-menu-header"> درباره سازمان</div>
                                     <ul>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
@@ -85,7 +88,7 @@
                         </a>
                         <div class="dropdown-menu row mega-menu" aria-labelledby="navbarDropdownMenuLink">
                             <div class="col">
-                                <div class="dropdown-menu-header"> درباره سازمان </div>
+                                <div class="dropdown-menu-header"> درباره سازمان</div>
                                 <ul>
                                     <li><a class="dropdown-item" href="#">معرفی سازمان</a></li>
                                     <li><a class="dropdown-item" href="#">ریاست سازمان</a></li>
@@ -101,7 +104,7 @@
                         <div class="dropdown-menu row mega-menu" aria-labelledby="navbarDropdownMenuLink">
                             <div class="row">
                                 <div class="col">
-                                    <div class="dropdown-menu-header"> درباره سازمان </div>
+                                    <div class="dropdown-menu-header"> درباره سازمان</div>
                                     <ul>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
@@ -110,7 +113,7 @@
                                     </ul>
                                 </div>
                                 <div class="col">
-                                    <div class="dropdown-menu-header"> درباره سازمان </div>
+                                    <div class="dropdown-menu-header"> درباره سازمان</div>
                                     <ul>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
@@ -119,7 +122,7 @@
                                     </ul>
                                 </div>
                                 <div class="col">
-                                    <div class="dropdown-menu-header"> درباره سازمان </div>
+                                    <div class="dropdown-menu-header"> درباره سازمان</div>
                                     <ul>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
                                         <li><a class="dropdown-item" href="#">اکبر</a></li>
@@ -168,7 +171,8 @@
 </div>
 
 <main class="container">
-    <div class="row justify-content-center mt-5 ">
+    <!--  search  -->
+    <div class="row justify-content-center my-5 ">
         <div class="col-lg-6 col-md-8 col-sm-10">
             <div class="input-group advanced-search">
                 <span class="input-group-text bg-transparent border-0">جستجوی پیشرفته</span>
@@ -177,12 +181,264 @@
             </div>
         </div>
     </div>
+    <!-- sliders -->
+    <div class="row sliders">
+        <div class="col-lg-6">
+            <div uk-slideshow="animation: push">
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="img/flower.jpg" alt="" uk-cover>
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">Bottom</h3>
+                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/car.jpg" alt="" uk-cover>
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">Bottom</h3>
+                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/flower.jpg" alt="" uk-cover>
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">Bottom</h3>
+                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/car.jpg" alt="" uk-cover>
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">Bottom</h3>
+                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    uk-slideshow-items
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                       uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                       uk-slideshow-item="next"></a>
+                </div>
+                <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            </div>
+
+
+        </div>
+        <div class="col-lg-3 announcements-wrapper">
+            <h5 class="announcement-header">اطلاعیه ها</h5>
+            <ul class="announcements">
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+                <li>
+                    <a>
+                        بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده
+                    </a>
+                    <div class="announcement-date">
+                        <span class="material-icons m-icon">event</span>
+                        1400/06/25
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-sm-6 col-lg-12"></div>
+                <div class="col-sm-6 col-lg-12"></div>
+            </div>
+        </div>
+    </div>
 </main>
 
-
+<br><br><br><br><br><br><br>
 <script src="js/jquery-3.6.0.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/uikit.js"></script>
+<script src="js/uikit-icons.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
