@@ -3,12 +3,13 @@ $(document).ready(function () {
         $('.dropdown').hover(function () {
             $(this).children('.dropdown-menu').addClass('show').attr('data-bs-popper', 'none');
             $(this).children('.nav-link').addClass('show');
-
         },function () {
             $(this).children('.dropdown-menu').removeClass('show');
             $(this).children('.nav-link').removeClass('show');
         })
     }
+
+
 })
 
 $(window).resize(function () {
@@ -23,4 +24,12 @@ $(window).resize(function () {
         })
     }
 })
+
+
+// Enable tooltip
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
 
